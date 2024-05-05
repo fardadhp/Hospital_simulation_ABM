@@ -1,0 +1,21 @@
+parameter,owner,model_param_name,for_calibration,min,max
+highly susceptible ratio,ICU,highly_susceptible_ratio,0,0.5,0.9
+HCW compliance variability from mean,other,HCW_hygiene_compliance_variability_from_mean,0,0,1
+Terminal room disinfection efficacy,ICU,terminal_room_disinfection_efficacy,0,0.4,0.6
+Hands hygiene efficacy,ICU,residual_contamination_post_hand_washing,1,0,1
+Transmission increase factor for highly susceptible,ICU,increase_factor_for_highly_susceptible,1,1,2
+Mean probability of room contamination by colonized patients per day,ICU,probability_room_contamination_by_colonized_patient,0,0.4,0.8
+Mean probability of transmission from contaminated HCW to susceptible patient,ICU,probability_transmission_from_contaminated_hcw_to_susceptible_patient,1,0,0.5
+Mean probability of HCW contamination from from colonized patient,ICU,probability_HCW_contamination_from_colonized_patient,0,0.4,0.8
+Mean probability of HCW contamination from contaminated environment,ICU,probability_hcw_contamination_from_contaminated_env,0,0.4,0.8
+Mean probability of environmental contamination from contaminated HCW,ICU,probability_env_contamination_from_contaminated_hcw,0,0.4,0.8
+Probability of patient direct environmental colonization,ICU,probability_environmental_colonization,1,0,1
+Pathogen natural clearance rate from dry surfaces per day,ICU,pathogen_natural_clearance_from_dry_surfaces_per_day,0,0,0.01
+test_sensitivity,ICU,test_sensitivity,0,0.4,0.95
+admission_C,ICU,admission_prevalence,0,0.05,0.15
+nurse_hygiene_compliance_enter_mean,ICU,nurse_hygiene_compliance_enter_mean,0,0.5,0.7
+nurse_hygiene_compliance_enter_half_interval,ICU,nurse_hygiene_compliance_enter_half_interval,0,0,0.3
+nurse_hygiene_compliance_exit_mean,ICU,nurse_hygiene_compliance_exit_mean,0,0.6,0.9
+nurse_hygiene_compliance_exit_half_interval,ICU,nurse_hygiene_compliance_exit_half_interval,0,0,0.3
+nurse_PPE_compliance_mean,ICU,nurse_PPE_compliance_mean,0,0.8,0.9
+nurse_PPE_compliance_half_interval,ICU,nurse_PPE_compliance_half_interval,0,0,0.3

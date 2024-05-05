@@ -1,0 +1,7 @@
+unit_ID,name,capacity
+0,Cardiac_Care,12
+1,Cardiovascular_Surgical,18
+2,Medical_Intensive_Care,24
+3,Neuro_Critical_Care,24
+4,Surgical,15
+5,Weinberg,20
